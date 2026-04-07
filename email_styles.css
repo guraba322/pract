@@ -1,0 +1,100 @@
+/* Стили для email писем */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для письма клиенту */
+.client-header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.client-content {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.client-info-box {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+/* Стили для письма администратору */
+.admin-header {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.admin-content {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.admin-info-box {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-left: 4px solid #e74c3c;
+}
+
+/* Общие стили для элементов */
+.info-row {
+    margin: 10px 0;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ecf0f1;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin: 10px 0;
+}
+
+.timestamp {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
